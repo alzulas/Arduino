@@ -1,6 +1,6 @@
 #include <AdafruitNeoPixel.h>
  
-#define PIN 1
+#define PIN 4
  
 // Parameter 1 = number of pixels in strip
 // Parameter 2 = Arduino pin number (most are valid)
@@ -9,8 +9,8 @@
 //   NEO_KHZ400  400 KHz (classic 'v1' (not v2) FLORA pixels, WS2811 drivers)
 //   NEO_GRB     Pixels are wired for GRB bitstream (most NeoPixel products)
 //   NEO_RGB     Pixels are wired for RGB bitstream (v1 FLORA pixels, not v2)
-AdafruitNeoPixel strip = AdafruitNeoPixel(8, PIN, NEO_GRB + NEO_KHZ800);
- 
+AdafruitNeoPixel strip = AdafruitNeoPixel(11, PIN, NEO_GRB + NEO_KHZ800);
+
 // IMPORTANT: Avoid connecting on a live circuit...if you must, connect GND first.
  
 void setup() {

@@ -3,8 +3,8 @@
  
 // GLOBAL STUFF --------------------------------------------------------------
  
-#define N_LEDS 34
-#define PIN     13
+#define N_LEDS 4
+#define PIN     4
  
 AdafruitNeoPixel    pixels = AdafruitNeoPixel(N_LEDS, PIN);
 volatile uint16_t    count  = 1; // Countdown to next animation change

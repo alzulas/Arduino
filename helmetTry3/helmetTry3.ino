@@ -1,8 +1,8 @@
 #include <AdafruitNeoPixel.h>
  
-#define PIN 13 
+#define PIN 4 
  
-AdafruitNeoPixel strip = AdafruitNeoPixel(34, PIN, NEO_GRB + NEO_KHZ800);
+AdafruitNeoPixel strip = AdafruitNeoPixel(4, PIN, NEO_GRB + NEO_KHZ800);
  
 int snakeLength=10; // How long of trails do you want?
 int frameDelay = 30; // Lower numbers = faster animation
